@@ -24,15 +24,28 @@ tupla= (
 (2022, (13.6, 13.4, 13.2, 13.4, 13.9, 13.7, 13.7, 13.8, 14, 14.3, 16, 15.1, 14))
 )
 
-
-
-
+t2022 = tupla [22] [1]
+t = tupla [0]
 temperaturamax2022 = 0
-temperaturamin2022 = 0
+temperaturamin2022 = 100
 temperaturamitjana2022 = 0
 
-for temperatura2022 in len(tupla):
-    if temperaturamax2022 < temperatura2022:
-        temperaturamax2022 = temperatura2022
+temperaturamax= 0
+temperaturamin= 0
+temperaturamitjana= 0
 
-print(temperaturamax2022)
+for temperatura2022 in t2022:
+    if temperatura2022 > temperaturamax2022:
+        temperaturamax2022 = temperatura2022
+    if temperatura2022 < temperaturamin2022:
+        temperaturamin2022 = temperatura2022
+
+for any in tupla [0]:
+    for temperatura in t:
+        if temperaturamax > t:
+            temperaturamax = temperatura
+
+
+
+print(temperaturamax2022, temperaturamin2022, tupla[-1][-1][-1])
+print(temperaturamax)
