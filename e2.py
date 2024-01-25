@@ -5,8 +5,6 @@ Rubén Sànchez
 ASIXc 1B
 25/01/2024
 """
-
-
 import random
 llista_aleatoria = [random.randint(1, 50) for i in range(100)]
 sumparells = 0
