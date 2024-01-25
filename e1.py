@@ -1,3 +1,12 @@
+"""
+Pol Sánchez, Dídac Lloret, Rubén Sánchez
+ASIXc1B
+25/01/2024
+Programa de càlcul de temperatures del mar.
+Calcula per a l’any 2022: temperatura màxima, mínima i mitjana
+Calcula per període 2000 a 2022: temperatura màxima, mínima i mitjana
+
+"""
 datos_climaticos = {
     2000: (12.7, 12.4, 12.6, 12.4, 13, 13.6, 13.3, 13.6, 13.5, 15.9, 15.3, 14.9),
     2001: (13.8, 13, 12.6, 13.6, 13.5, 13.4, 14, 14, 14.2, 15.3, 16.8, 14),

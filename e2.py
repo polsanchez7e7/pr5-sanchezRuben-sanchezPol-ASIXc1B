@@ -1,9 +1,9 @@
 """
-Pol Sànchez
-Dídac Lloret
-Rubén Sànchez
+Pol Sànchez, Dídac Lloret, Rubén Sànchez
 ASIXc 1B
 25/01/2024
+Programa que generi una llista de 100 nombres aleatoris entre 1 i 50.
+Obtenir la mitja dels nombres que es troben a les posicions parelles i la mitja del nombre de les posicions senars.
 """
 import random
 llista_aleatoria = [random.randint(1, 50) for i in range(100)]
