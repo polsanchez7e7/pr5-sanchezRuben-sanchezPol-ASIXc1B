@@ -9,7 +9,7 @@ import random
 llista_aleatoria = [random.randint(1, 50) for i in range(100)]
 sumparells = 0
 sumsenars = 0
-print("Amb els nombres:")
+print("Amb els nombres:", end=' ')
 for i in range(0, 99, 2):
     sumparells = (llista_aleatoria[i]) + sumparells
 for j in range(1, 99, 2):
