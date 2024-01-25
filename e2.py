@@ -1,3 +1,8 @@
+"""
+Pol Sánchez, Dídac Lloret, Rubén Sánchez
+ASIXc1B
+
+"""
 import random
 llista_aleatoria = [random.randint(1, 50) for i in range(100)]
 sumparells = 0

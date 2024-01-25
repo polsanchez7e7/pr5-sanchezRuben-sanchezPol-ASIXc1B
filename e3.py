@@ -1,6 +1,6 @@
 """
 Pol Sánchez, Dídac Lloret, Rubén Sánchez
-1.B
+ASIXc1B
 Programa de traducció d’insults. Crear una estructura de dues dimensions amb els insults en català i afegir la traducció en castellà, anglès i klingon
 """
 
