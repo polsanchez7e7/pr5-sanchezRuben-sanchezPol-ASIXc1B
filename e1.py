@@ -5,7 +5,6 @@ ASIXc1B
 Programa de càlcul de temperatures del mar.
 Calcula per a l’any 2022: temperatura màxima, mínima i mitjana
 Calcula per període 2000 a 2022: temperatura màxima, mínima i mitjana
-
 """
 datos_climaticos = {
     2000: (12.7, 12.4, 12.6, 12.4, 13, 13.6, 13.3, 13.6, 13.5, 15.9, 15.3, 14.9),
